@@ -116,7 +116,7 @@
         margin: 0px 0px 0px 8px;
     }
     #message {
-        padding: 24px 315px 161px 20px;
+        padding: 24px 300px 161px 20px;
         resize: none;
         margin-left: 9px;
     }
@@ -387,9 +387,9 @@
         font-size: 18px;
         line-height: 0px;
     }
-    .center-content .edge {
+    /* .center-content .edge {
         transform: translate(-19px, -50px);
-    }
+    } */
     .center .container .center-content {
         margin: 0px 30px 58px 30px;
     }

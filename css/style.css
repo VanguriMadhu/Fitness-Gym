@@ -44,17 +44,6 @@ header{
     display: block;
     clear: both;
 }
-/*.logo{
-    float: left;
-    padding: 21px 0px 17px 44px;
-    text-decoration: none;
-}
-
-nav{
-    float: right;
-    padding: 0px 73px 0px 0px;
-    font-family: 'Nova Round';
-}*/
 
 .logo{
     display: inline-block;
@@ -83,7 +72,6 @@ nav ul li a {
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
-    /*line-height: 84px;*/
 }
 .active {
     color: #01f704;
@@ -197,15 +185,16 @@ color: #00ff00;
 .center-content{
     float: left;
     width: 28%;
-    margin: 62px 0px 133px 0px;
+     margin: 62px 0px 133px 0px; 
     position: relative;
 }
 
-.center-content .edge{
+.center-content::before{
+    content: url(../images/edge.png);
     position: absolute;
-    top: 32px;
-    left: 182px;
-    transform: translate(-50px, -50px);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .center .container h4{
